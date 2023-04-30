@@ -1,0 +1,14 @@
+.hiddenDiv {
+  width: 12rem;
+}
+
+.headerDiv {
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wlug {
+  width: auto;
+  height: 80px;
+}

@@ -1,0 +1,58 @@
+.contentCard {
+  z-index: 1;
+  margin-top: 1rem;
+  width: auto;
+  border-radius: 10px;
+  padding: 40rem 30rem;
+  transition: all 0.5s;
+}
+.contentCard:hover {
+  -webkit-transform: scale(1.06, 1.06);
+  transform: scale(1.06, 1.06);
+}
+
+.contentCard h4 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.contentCard h3 {
+  margin: 1.7rem auto;
+}
+
+.time,
+.marks {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.search {
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 50%;
+  background: #f6faf1;
+  box-shadow: 8px 8px 10px #d1d5cd, -8px -8px 10px #ffffff;
+}
+.idx {
+  text-align: center;
+}
+.marks {
+  width: 15%;
+  align-items: center;
+  justify-content: center;
+}
+.username {
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  text-align: center;
+}
+.time {
+  width: 25%;
+}
+.points {
+  display: flex;
+}

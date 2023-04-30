@@ -1,0 +1,203 @@
+/* .content-leaderboard {
+  z-index: 1;
+  width: 'auto';
+
+  background: #dde1e7;
+  border-radius: 10px;
+
+  box-shadow: rgba(29, 24, 155, 0.3) 2px 8px 8px;
+}
+.content-leaderboard h4 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 0.4rem;
+}
+.login-footer {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  background: linear-gradient(#28313b, #0b0c0e);
+  border: 2px solid rgb(2, 2, 2);
+  border-radius: 8px;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 3rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1.8rem;
+} */
+
+body {
+  background-color: #f6faf1;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 3rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 60%;
+  background: #fafe4a;
+  box-shadow: inset 7px 7px 9px #e7c800, inset -7px -7px 9px #ffff0b;
+}
+
+.card {
+  margin: 1rem 3rem;
+  width: 60%;
+  padding: 1.5rem 3rem 2rem 3rem;
+  border-radius: 29px;
+  background: #f6faf1;
+  box-shadow: 15px 15px 24px #d1d5cd, -15px -15px 24px #ffffff;
+  transition: all 0.5s;
+}
+
+.SinglecardHeader {
+  margin-bottom: 3.5rem;
+  border-radius: 1rem;
+  background: #f6faf1;
+  box-shadow: 11px 11px 22px #d1d5cd, -11px -11px 22px #ffffff;
+}
+
+.SinglecardHeader:hover {
+  transform: scale(1.03);
+  box-shadow: 15px 15px 27px #d1d5cd, -15px -15px 27px #ffffff;
+}
+
+.Singlecard {
+  margin: 1.5rem auto;
+  padding: 0.5rem auto;
+  border-radius: 1rem;
+  background: #f6faf1;
+  box-shadow: inset 8px 8px 10px #d1d5cd, inset -8px -8px 10px #ffffff;
+  /* border-radius: 1rem;
+  background: #FAFE4A;
+  box-shadow: inset 7px 7px 9px #d9bc00, inset -7px -7px 9px #fffe00; */
+}
+
+.Singlecard:hover {
+  box-shadow: inset 5px 5px 7px #d1d5cd, inset -5px -5px 7px #ffffff;
+}
+
+.loginFooter {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+  align-items: center;
+  margin: 1rem 3rem;
+  padding: 3rem;
+  border-radius: 1rem;
+  background: #f6faf1;
+  box-shadow: 15px 15px 24px #d1d5cd, -15px -15px 24px #ffffff;
+}
+
+.searchBtn {
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.search {
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: inherit;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #ffffff, #dde1d9);
+  box-shadow: 7px 7px 14px #d1d5cd, -7px -7px 14px #ffffff;
+}
+
+.search:active {
+  border-radius: 50%;
+  background: #f6faf1;
+  box-shadow: inset 6px 6px 12px #ccd0c8, inset -6px -6px 12px #ffffff;
+}
+
+.searchInput {
+  border: none;
+  height: 2.9rem;
+  padding: 1rem;
+  width: 20rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
+  background: #f6faf1;
+  box-shadow: 8px 8px 16px #c7cbc3, -8px -8px 16px #ffffff;
+  transition: all 0.2s;
+}
+.searchInput:focus {
+  outline: none;
+  border-radius: 1rem;
+  background: #f6faf1;
+  box-shadow: inset 4px 4px 5px #d1d5cd, inset -4px -4px 5px #ffffff;
+}
+.searchIcon {
+  height: 1.3rem;
+  width: 1.3rem;
+}
+
+@media only screen and (max-width: 1492px) {
+  .heading,
+  .card,
+  .loginFooter {
+    width: 90%;
+  }
+  .loginFooter {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .searchInput {
+    width: 10rem;
+  }
+  .inputMain {
+    display: flex;
+  }
+  .card {
+    padding: 1rem 1.2rem 1rem 1.2rem;
+    font-size: 0.8rem;
+  }
+  .heading {
+    font-size: 1rem;
+  }
+}
+.leaderboardBtn {
+  border: none;
+  width: 380px;
+  background: #e8e8e8;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #ffffff, #d8d8d8);
+  box-shadow: 19px 19px 48px #afafaf, -19px -19px 48px #ffffff;
+  background-image: url('https://res.cloudinary.com/dduur8qoo/image/upload/v1681378951/techno_rrafs8.png');
+  background-size: 200%;
+  background-position: 200%;
+  background-repeat: no-repeat;
+  transition: 0.8s ease-in-out;
+  transition-property: background-position, border, color;
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  z-index: 1;
+  height: 3em;
+  margin: 2em auto;
+}
+.leaderboardBtn:hover {
+  box-shadow: 5px 5px 8px #7d7d7d;
+  color: black;
+  background-position: 40%;
+  cursor: pointer;
+}
