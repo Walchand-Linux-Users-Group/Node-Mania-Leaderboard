@@ -18,6 +18,12 @@
 
 <br/>
 
+### Developers:
+
+- #### [Swarada Bhosale](https://github.com/swarraaa)
+- #### [Harsh Karwa](https://github.com/harsh-1503)
+
+
 <div align="center">
   
   <hr/>
